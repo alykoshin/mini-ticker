@@ -17,7 +17,7 @@ var optionNotSupported = function() {
   throw 'Option not supported';
 };
 
-// Ticker
+// MiniTicker
 
 /**
  *
@@ -30,7 +30,7 @@ var optionNotSupported = function() {
  * @constructor
  */
 
-var Ticker = function (options, onChange) {
+var MiniTicker = function (options, onChange) {
   var self = this;
 
   if (arguments.length === 1) {
@@ -183,10 +183,10 @@ var Ticker = function (options, onChange) {
 
 
 if (typeof module !== 'undefined') {
-  module.exports  = Ticker;
+  module.exports  = MiniTicker;
 }
 
 if (typeof window !== 'undefined') {
-  window.Ticker  = Ticker;
+  window.MiniTicker  = MiniTicker;
 }
 
