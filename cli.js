@@ -32,6 +32,6 @@ if (argv.indexOf('--version') !== -1) {
 }
 
 
-mini-ticker(argv[0], function() {
+miniTicker(argv[0], function() {
 
 });

@@ -8,7 +8,11 @@
 # mini-ticker
 
 Simple ticker (time count) for browser and node
+Ticker is based on setTimeout() with additional auto adjustment to compensate timer error.
 
+This package is part of WRTC project.
+
+Not yet ready for public usage.
 
 If you have different needs regarding the functionality, please add a [feature request](https://github.com/alykoshin/mini-ticker/issues).
 
@@ -19,6 +23,8 @@ npm install --save mini-ticker>
 ```
 
 ## Usage
+
+Not yet ready for public usage.
 
 ## Credits
 [Alexander](https://github.com/alykoshin/)
